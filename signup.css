@@ -1,0 +1,141 @@
+body,html{
+    background-image: url(image/HD-wallpaper-texture-pattern-red-metal-digital-art-abstract.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.navbar-3 nav   img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.navbar-3 nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(177, 91, 167, 0.555);
+}
+.navbar-3 nav .header-3{
+    color:white;
+    padding-left: 50px;
+    font-family: 'Irish Grover', cursive;
+    font-size: 20px;
+    margin-right: 300px;
+    margin-top:30px;
+
+
+}
+.navbar-3 nav.signup-buttons3   button {
+    margin-left: 200px;
+   /* padding: 20px 20px; */
+   cursor: pointer;
+  
+}
+.signup-buttons3 {
+    margin: 20px 20px;
+   
+    
+
+}
+.signup-buttons3 button {
+     margin-right: 20px;
+
+     
+}
+.signup-buttons3 button{
+    width:130px;
+height:50px;
+border-radius: 60px;
+background-color: black;
+color: white;
+font-family: 'Irish Grover', cursive;
+font-size: 20px;
+cursor: pointer;
+}
+/* signup form css */
+ .form-container2 {
+    height: 700px;
+    background-color: rgba(109, 14, 14, 0.678);
+    width: 500px;
+   
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left:80px ;
+    padding-top: 50px;
+    box-sizing: border-box;
+    
+}.form-container2 div label{
+    display: block;
+    padding:   30px 0px 30px 0px ;
+    font-family: 'Irish Grover', cursive;
+    color: #FBF1F2;
+}
+.container2{
+    display: flex;
+    margin-left: 130px;
+    box-sizing: border-box;
+    /* gap: 500px; */
+}
+.form-container2 div .input{
+    width:200px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: #f3d0d9;
+    padding-left: 30px;
+    border: none;
+}
+.form-container2 .CREATE button {
+    
+    width: 250px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 60px;
+    border: none;
+    color: rgb(204, 182, 83);
+    font-family: 'Irish Grover' ;
+    background-color: black;
+    font-size: 20px;
+}
+.form-container2  #name-icon{
+    position: absolute;
+
+    padding-left: 10px;
+    padding-top: 8px;
+   }
+   .form-container2 #email-icon{
+    padding-top:87px;
+    padding-left: 9px;
+    position: absolute;
+   }
+   .form-container2 #password-icon{
+    padding-top:87px;
+    padding-left: 10px;
+    position: absolute;
+   }
+.checkbox {
+    display:flex;
+    /* padding-right: 400px; */
+    /* margin-right: 100px;
+    position: absolute; */
+  
+    
+}
+.checkbox #policy{
+    height: 20px;
+    width: 25px;
+    margin-top: 30px;
+    margin-right:10px ;
+    
+    
+    
+}
+.checkbox .label{
+  padding-right: 100px;
+ 
+}
+

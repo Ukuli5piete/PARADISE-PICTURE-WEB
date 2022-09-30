@@ -1,0 +1,161 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image:url(image/HD-wallpaper-texture-pattern-red-metal-digital-art-abstract.jpg);
+    /* object-fit:fill; */
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+/* .navbar-2{
+    position: fixed;
+
+} */
+:root 
+/* nav picture  */
+    .navbar-2 nav   img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    .navbar-2 nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(177, 91, 167, 0.555);
+    }
+    .navbar-2 nav .header-2{
+        color:white;
+        padding-left: 50px;
+        font-family: 'Irish Grover', cursive;
+        font-size: 20px;
+        margin-right: 300px;
+        margin-top:30px;
+
+
+    }
+    .navbar-2 nav.signup-buttons   button {
+        margin-left: 200px;
+       /* padding: 20px 20px; */
+      
+    }
+    .signup-buttons {
+        margin: 20px 20px;
+       
+        
+
+    }
+    .signup-buttons button {
+         margin-right: 20px;
+
+         
+    }
+    .signup-buttons button{
+        width:130px;
+  height:50px;
+  border-radius: 60px;
+   background-color: black;
+   color: white;
+   font-family: 'Irish Grover', cursive;
+   font-size: 20px;
+   
+
+    }
+    /* FORMS CSS */
+    .form-container{
+        
+        background-color: rgba(109, 14, 14, 0.678);
+        width: 500px;
+        height: 500px;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left:80px ;
+        padding-top: 50px;
+        box-sizing: border-box;
+        
+    }
+    .form-container div label{
+        display: block;
+        padding:   30px 0px 30px 0px ;
+        font-family: 'Irish Grover', cursive;
+        color: #FBF1F2;
+    }
+    .container{
+        display: flex;
+        margin-left: 130px;
+        
+        /* gap: 500px; */
+    }
+    .form-container div input{
+        width:200px;
+        height: 30px;
+        border-radius: 40px;
+        background-color: #F6A8BB;
+        padding-left: 20px;
+        border: none;
+    }
+    .form-container .login button {
+        
+        width: 130px;
+        height: 50px;
+        margin-top: 40px;
+        border-radius: 60px;
+        border: none;
+        color: rgb(204, 181, 81);
+        font-family: 'Irish Grover' ;
+        background-color: black;
+        font-size: 20px;
+        cursor: pointer;
+    }
+.container form{
+    /* background-color: #F6A8BB; */
+    display: flex;
+}
+/* welcome words */
+.container form  #welcome-login-form{
+    background-color: #f6a8bcc5;
+}
+.container form  #welcome-login-form h3{
+    color:rgb(92, 8, 8);
+    font-family: 'Irish Grover'; 
+    font-size: 25px;
+    padding-top: 10px;
+    line-height: 8px;
+}
+.container form  #welcome-login-form h3 span{
+    color: rgb(107, 91, 19);
+    
+}
+.container form  #welcome-login-form .join h3{
+    padding-left: 30px;
+}
+.container form  #welcome-login-form .welcome h3{
+    font-size: 27px;
+    line-height: 13px;
+}
+.container form  #welcome-login-form  .suggestion h4{
+    color: rgb(0, 0, 0);
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.container form  #welcome-login-form  .suggestion a  span{
+    color:rgb(107, 91, 19);
+    text-decoration: underline;
+}
+/* welcome login picture */
+.container form  #welcome-login-form  img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+    

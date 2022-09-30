@@ -1,0 +1,130 @@
+.navbar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between; 
+    padding-right: 30px;
+}
+.button ul{
+    justify-content: space-between;
+}
+/* .navbar nav{
+    background-color: rgba(255, 255, 255, 0.445);
+    width: 100px;
+    height:177px;
+} */
+nav{
+    background-color:rgba(250, 246, 246, 0.199) ;
+}
+body,html{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-image:url(image/luxury\ \ backgrouns.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:fixed;
+
+}
+.navbar.button li,a,button{
+    /* margin:20px 20px; */
+    padding:10px 10px;
+    /* justify-content: center; */
+   
+    color:white; 
+    font-family: 'Irish Grover', cursive;
+    font-size: 20px;
+
+}
+/* buttons background color */
+.button li a button{
+  background-color: black;
+  border-radius: 60px;
+  width:130px;
+  height:50px;
+  cursor: pointer;
+  font-weight: 800;
+}
+  /* HEADING OF THE LOGO   */
+.heading{
+    margin-right: 300px;
+    /* padding-bottom: 5px; */
+    padding-top: 5px;
+    color: white;
+    font-family: 'Irish Grover', cursive;
+}
+/* CONTENT OF THE HOME PAGE */
+.accessbuttons {
+    /* margin-top: 200px; */
+    /* align: center; */
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-left: 550px;
+    padding-top: 50px;
+    /* font-weight: 400;
+    font-style: italic; */
+
+}
+
+
+.accessbuttons button{
+    width:120px;
+    border-radius: 60px;
+    border: none;
+    background-color: #F0CED6;
+    color:#651039;
+    font-weight: 800;
+    cursor: pointer;
+    font-family: 'Irish Grover', cursive;
+    
+
+
+    
+}
+/* .accessbuttons button span{
+    background-color: #C04B52; */
+.accessbuttons span a button{
+    background-color: #C04B52;
+    font-size: normal;
+    color:#F0CED6;
+    font-weight: 800;
+}
+.accessbuttons p{
+    color: white;
+    font-family: 'Irish Grover';
+}
+
+/* welcome sentence */
+.welcome-sentences span{
+    color:#C95470;
+    
+    line-height: 5px;}
+    .welcome-sentences{
+        color: white;
+        font-family: 'Irish Grover';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 10px;
+        text-align: center;
+        padding-top: 50px;
+        padding-right: 10px; 
+        /* position:absolute */
+}
+
+
+
+    
+   

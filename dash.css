@@ -1,0 +1,98 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+
+    box-sizing: border-box;
+}
+body{
+    
+background-image: url(image/luxury\ \ backgrouns.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+/* NAVBAR CSS */
+
+.navbar-4 nav   img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.navbar-4 nav{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color:rgba(122, 98, 104, 0.74);
+}
+.navbar-4 nav .workspace{
+    display: flex;
+    padding:20px 20px  20px 20px;
+    float: inline-start;
+}
+
+.navbar-4 nav .header-4{
+    color:white;
+    padding-left: 50px;
+    font-family: 'Irish Grover', cursive;
+    font-size: 20px;
+    margin-right: 300px;
+    margin-top:30px;
+
+
+}
+.navbar-4 nav .workspace .select  {
+     
+    width: 150px;
+    /* height: 15px; */
+    border-radius: 100px;
+    /* padding: 5px */
+
+}
+
+
+
+.navbar-4 nav .signout-buttons4{
+   
+    /* position:absolute; */
+    /* float: right; */
+    padding:20px 20px  20px 20px;
+    margin-left: 270px;
+    
+}
+.navbar-4 nav .signout-buttons4 button{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-family: 'Irish Grover';
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.navbar-4 nav .icon2 i{
+    position: absolute;
+    padding: left 20px;
+    padding-top: 8px; 
+    padding-left: 10px;
+    color: blueviolet;
+}
+.navbar-4 nav .icon2 button{
+    width: 130px;
+    height: 30px;
+    padding-left: 20px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    font-family: 'Irish Grover';
+    position: absolute;
+    font-size: 20px;
+
+}
+.navbar-4 nav .icon2{
+    margin-left: 50px;
+}
